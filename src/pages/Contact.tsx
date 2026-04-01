@@ -31,7 +31,7 @@ export const Contact = () => {
             
             <div className="bg-gray-50 p-4 rounded-2xl border border-gray-100 mb-8 inline-block">
               <img 
-                src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=WeChatContact" 
+                src="/wechat-qr.jpg" 
                 alt="WeChat QR Code" 
                 className="w-64 h-64 object-cover rounded-xl mx-auto"
                 referrerPolicy="no-referrer"
