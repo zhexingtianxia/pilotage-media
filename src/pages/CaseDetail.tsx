@@ -11,43 +11,39 @@ const casesData = {
     title: "抖音账号运营", 
     desc: "粉丝增长与内容策略", 
     images: [
-      "https://picsum.photos/seed/case1-detail1/1200/1600",
-      "https://picsum.photos/seed/case1-detail2/1200/1200"
+      "/case1.jpg", "/case2.jpg", "/case3.jpg", "/case4.jpg", "/case5.jpg", 
+      "/case6.jpg", "/case7.jpg", "/case8.jpg", "/case9.jpg", "/case10.jpg", 
+      "/case11.jpg", "/case12.jpg", "/case13.jpg"
     ] 
   },
   "2": { 
     title: "直播带货数据", 
     desc: "单场直播GMV突破", 
     images: [
-      "https://picsum.photos/seed/case2-detail1/1200/2000"
+      "/shuju1.jpg", "/shuju2.jpg", "/shuju3.png", "/shuju4.png", "/shuju5.png", 
+      "/shuju6.png", "/shuju7.jpg", "/shuju8.png", "/shuju9.jpg", "/shuju10.png"
     ] 
   },
   "3": { 
-    title: "客服沟通案例", 
+    title: "客资转化案例", 
     desc: "高效客户转化", 
     images: [
-      "https://picsum.photos/seed/case3-detail1/1200/1800"
-    ] 
-  },
-  "4": { 
-    title: "品牌合作", 
-    desc: "全案营销策划", 
-    images: [
-      "https://picsum.photos/seed/case4-detail1/1200/1500"
+      "/kezi1.jpg", "/kezi2.jpg", "/kezi3.jpg", "/kezi4.jpg", "/kezi5.jpg", 
+      "/kezi6.jpg", "/kezi7.png"
     ] 
   },
   "5": { 
-    title: "短视频爆款", 
+    title: "后台经营效果", 
     desc: "千万级播放量", 
     images: [
-      "https://picsum.photos/seed/case5-detail1/1200/1600"
+      "/houtai1.png", "/houtai2.png", "/houtai3.png", "/houtai4.png", "/houtai5.png"
     ] 
   },
   "6": { 
-    title: "矩阵账号", 
+    title: "直播间人气", 
     desc: "多平台联动", 
     images: [
-      "https://picsum.photos/seed/case6-detail1/1200/2200"
+      "/zhibo1.jpg", "/zhibo2.jpg", "/zhibo3.jpg", "/zhibo4.jpg"
     ] 
   }
 };

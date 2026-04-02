@@ -11,37 +11,31 @@ export const Cases = () => {
       id: 1,
       title: "抖音账号运营",
       desc: "粉丝增长与内容策略",
-      img: "https://picsum.photos/seed/case1/600/800"
+      img: "/case1.jpg"
     },
     {
       id: 2,
       title: "直播带货数据",
       desc: "单场直播GMV突破",
-      img: "https://picsum.photos/seed/case2/600/400"
+      img: "/shuju1.jpg"
     },
     {
       id: 3,
-      title: "客服沟通案例",
+      title: "客资转化案例",
       desc: "高效客户转化",
-      img: "https://picsum.photos/seed/case3/600/600"
-    },
-    {
-      id: 4,
-      title: "品牌合作",
-      desc: "全案营销策划",
-      img: "https://picsum.photos/seed/case4/600/700"
+      img: "/kezi1.jpg"
     },
     {
       id: 5,
-      title: "短视频爆款",
+      title: "后台经营效果",
       desc: "千万级播放量",
-      img: "https://picsum.photos/seed/case5/600/500"
+      img: "/houtai1.png"
     },
     {
       id: 6,
-      title: "矩阵账号",
+      title: "直播间人气",
       desc: "多平台联动",
-      img: "https://picsum.photos/seed/case6/600/900"
+      img: "/zhibo1.jpg"
     }
   ];
 

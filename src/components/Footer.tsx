@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 mb-12 lg:mb-16">
           <div className="col-span-1 sm:col-span-2 lg:col-span-1">
             <Link to="/" className="mb-6 bg-white/10 p-2 rounded-lg inline-block hover:bg-white/20 transition-colors">
-               <img src="./logo-horizontal.png" alt="Pilotage Media" className="h-10 sm:h-12 w-auto object-contain" />
+               <img src="/logo-horizontal.png" alt="Pilotage Media" className="h-10 sm:h-12 w-auto object-contain" />
             </Link>
             <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-6 max-w-sm">
               立足三门峡，辐射全国。<br/>
