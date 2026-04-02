@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { motion } from 'motion/react';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const Cases = () => {
@@ -64,25 +64,33 @@ export const Cases = () => {
             </div>
           </div>
 
-          <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {cases.map((item, index) => (
               <motion.div 
                 key={item.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="break-inside-avoid relative group rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-100 block"
+                className="group rounded-2xl overflow-hidden shadow-sm hover:shadow-xl bg-white border border-gray-100 transition-all duration-300 flex flex-col"
               >
-                <Link to={`/cases/${item.id}`} className="block w-full h-full">
-                  <img 
-                    src={item.img} 
-                    alt={item.title} 
-                    className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-                    <h3 className="text-white font-bold text-xl mb-1 translate-y-4 group-hover:translate-y-0 transition-transform duration-300">{item.title}</h3>
-                    <p className="text-white/80 text-sm translate-y-4 group-hover:translate-y-0 transition-transform duration-300 delay-75">{item.desc}</p>
+                <Link to={`/cases/${item.id}`} className="block w-full h-full flex flex-col">
+                  <div className="relative w-full aspect-[4/3] overflow-hidden bg-gray-100">
+                    <img 
+                      src={item.img} 
+                      alt={item.title} 
+                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                      referrerPolicy="no-referrer"
+                    />
+                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-sm">
+                      <span className="text-xs font-bold text-[#2D63EA]">Case {item.id < 10 ? `0${item.id}` : item.id}</span>
+                    </div>
+                  </div>
+                  <div className="p-5 md:p-6 flex-grow flex flex-col justify-center bg-white z-10 relative border-t border-gray-50">
+                    <h3 className="text-gray-900 font-bold text-xl mb-2 group-hover:text-[#2D63EA] transition-colors">{item.title}</h3>
+                    <p className="text-gray-500 text-sm line-clamp-2">{item.desc}</p>
+                    <div className="mt-4 flex items-center text-[#2D63EA] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0 duration-300">
+                      查看详情 <ArrowRight size={16} className="ml-1" />
+                    </div>
                   </div>
                 </Link>
               </motion.div>

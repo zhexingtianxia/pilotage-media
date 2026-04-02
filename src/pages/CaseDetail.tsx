@@ -83,17 +83,20 @@ export const CaseDetail = () => {
           <p className="text-lg text-gray-600">{caseInfo.desc}</p>
         </div>
         
-        {/* 纯图片排布区域 */}
-        <div className="w-full max-w-4xl mx-auto bg-white shadow-2xl md:rounded-t-3xl overflow-hidden">
-          {caseInfo.images.map((img, idx) => (
-            <img 
-              key={idx} 
-              src={img} 
-              alt={`${caseInfo.title} - 详情图 ${idx + 1}`} 
-              className="w-full h-auto block" 
-              referrerPolicy="no-referrer" 
-            />
-          ))}
+        {/* 纯图片排布区域 - 双列瀑布流布局 */}
+        <div className="w-full max-w-6xl mx-auto px-2 sm:px-0">
+          <div className="columns-2 gap-3 sm:gap-4 md:gap-6 space-y-3 sm:space-y-4 md:space-y-6">
+            {caseInfo.images.map((img, idx) => (
+              <div key={idx} className="break-inside-avoid rounded-xl md:rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow duration-300 bg-white border border-gray-100">
+                <img 
+                  src={img} 
+                  alt={`${caseInfo.title} - 详情图 ${idx + 1}`} 
+                  className="w-full h-auto block hover:scale-105 transition-transform duration-700" 
+                  referrerPolicy="no-referrer" 
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </main>
 
