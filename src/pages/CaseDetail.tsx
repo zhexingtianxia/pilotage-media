@@ -34,14 +34,14 @@ const casesData = {
   },
   "5": { 
     title: "后台经营效果", 
-    desc: "千万级播放量", 
+    desc: "成交数据成倍增长", 
     images: [
       "/houtai1.png", "/houtai2.png", "/houtai3.png", "/houtai4.png", "/houtai5.png"
     ] 
   },
   "6": { 
     title: "直播间人气", 
-    desc: "多平台联动", 
+    desc: "人气爆棚，宣传、成交效果显著", 
     images: [
       "/zhibo1.jpg", "/zhibo2.jpg", "/zhibo3.jpg", "/zhibo4.jpg"
     ] 
