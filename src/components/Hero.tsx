@@ -38,10 +38,10 @@ export const Hero = () => {
                 立即咨询
                 <ArrowRight className="group-hover:translate-x-1 transition-transform" />
               </Link>
-              <button className="w-full sm:w-auto justify-center bg-white text-gray-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all shadow-md border border-gray-100 flex items-center gap-2">
+              <Link to="/cases" className="w-full sm:w-auto justify-center bg-white text-gray-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all shadow-md border border-gray-100 flex items-center gap-2">
                 <Play size={20} className="fill-gray-800" />
                 了解更多
-              </button>
+              </Link>
             </div>
           </motion.div>
 
