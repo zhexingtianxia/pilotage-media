@@ -36,7 +36,7 @@ const casesData = {
     title: "后台经营效果", 
     desc: "成交数据成倍增长", 
     images: [
-      "/houtai1.png", "/houtai2.png", "/houtai3.png", "/houtai4.png", "/houtai5.png"
+      "/houtai1.png", "/houtai2.png", "/houtai3.png", "/houtai4.png", "/houtai5.png", "/houtai6.png"
     ] 
   },
   "6": { 
