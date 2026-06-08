@@ -23,7 +23,7 @@ const casesData = {
     images: [
       "/shuju1.jpg", "/shuju2.jpg", "/shuju3.png", "/shuju4.png", "/shuju5.png", 
       "/shuju6.png", "/shuju7.jpg", "/shuju8.png", "/shuju9.jpg", "/shuju10.png",
-      "/shuju11.jpg", "/shuju12.jpg", "/shuju13.jpg", "/shuju14.jpg"
+      "/shuju11.jpg", "/shuju12.jpg", "/shuju13.jpg", "/shuju14.jpg", "/shuju15.jpg"
     ] 
   },
   "3": { 
@@ -52,7 +52,8 @@ const casesData = {
     title: "爆款作品", 
     desc: "高播放量与强互动性内容创作", 
     images: [
-      "/baokuan1.jpg", "/baokuan2.jpg", "/baokuan3.jpg", "/baokuan4.jpg", "/baokuan5.jpg"
+      "/baokuan1.jpg", "/baokuan2.jpg", "/baokuan3.jpg", "/baokuan4.jpg", "/baokuan5.jpg", 
+      "/baokuan6.jpg"
     ] 
   }
 };
