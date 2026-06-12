@@ -31,7 +31,10 @@ const casesData = {
     desc: "高效客户转化", 
     images: [
       "/kezi1.jpg", "/kezi2.jpg", "/kezi3.jpg", "/kezi4.jpg", "/kezi5.jpg", 
-      "/kezi6.jpg", "/kezi7.png"
+      "/kezi6.jpg", "/kezi7.png","/kezi8.jpg", "/kezi9.png", "/kezi10.png",
+      "/kezi11.jpg", "/kezi12.jpg", "/kezi13.jpg", "/kezi14.jpg", "/kezi15.jpg", 
+      "/kezi16.jpg", "/kezi17.jpg", "/kezi18.jpg", "/kezi19.jpg", "/kezi20.jpg",
+      "/kezi21.jpg", "/kezi22.jpg"
     ] 
   },
   "4": { 
