@@ -56,7 +56,7 @@ const casesData = {
     desc: "高播放量与强互动性内容创作", 
     images: [
       "/baokuan1.jpg", "/baokuan2.jpg", "/baokuan3.jpg", "/baokuan4.jpg", "/baokuan5.jpg", 
-      "/baokuan6.jpg"
+      "/baokuan6.jpg", "/baokuan7.jpg", "/baokuan8.jpg", "/baokuan9.jpg"
     ] 
   }
 };
